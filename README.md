@@ -2,3 +2,83 @@
 
 主にPurpleSharpを実行して確認。<br>
 https://github.com/mvelazc0/PurpleSharp
+
+## 環境
+Windows 10 1809<br>
+https://developer.microsoft.com/ja-jp/microsoft-edge/tools/vms/
+
+Malware Archaeology Logging Level<br>
+https://www.malwarearchaeology.com/cheat-sheets
+<pre>
+C:\Windows\system32>auditpol.exe /get /category:*
+System audit policy
+Category/Subcategory                      Setting
+System
+  Security System Extension               Success and Failure
+  System Integrity                        Success and Failure
+  IPsec Driver                            Success
+  Other System Events                     Failure
+  Security State Change                   Success and Failure
+Logon/Logoff
+  Logon                                   Success and Failure
+  Logoff                                  Success
+  Account Lockout                         Success
+  IPsec Main Mode                         No Auditing
+  IPsec Quick Mode                        No Auditing
+  IPsec Extended Mode                     No Auditing
+  Special Logon                           Success and Failure
+  Other Logon/Logoff Events               Success and Failure
+  Network Policy Server                   Success and Failure
+  User / Device Claims                    No Auditing
+  Group Membership                        Success
+Object Access
+  File System                             Success
+  Registry                                Success
+  Kernel Object                           No Auditing
+  SAM                                     Success
+  Certification Services                  Success and Failure
+  Application Generated                   Success and Failure
+  Handle Manipulation                     No Auditing
+  File Share                              Success and Failure
+  Filtering Platform Packet Drop          No Auditing
+  Filtering Platform Connection           Success
+  Other Object Access Events              No Auditing
+  Detailed File Share                     Success
+  Removable Storage                       Success and Failure
+  Central Policy Staging                  No Auditing
+Privilege Use
+  Non Sensitive Privilege Use             No Auditing
+  Other Privilege Use Events              No Auditing
+  Sensitive Privilege Use                 Success and Failure
+Detailed Tracking
+  Process Creation                        Success and Failure
+  Process Termination                     No Auditing
+  DPAPI Activity                          No Auditing
+  RPC Events                              Success and Failure
+  Plug and Play Events                    Success
+  Token Right Adjusted Events             Success
+Policy Change
+  Audit Policy Change                     Success and Failure
+  Authentication Policy Change            Success and Failure
+  Authorization Policy Change             Success and Failure
+  MPSSVC Rule-Level Policy Change         No Auditing
+  Filtering Platform Policy Change        Success
+  Other Policy Change Events              No Auditing
+Account Management
+  Computer Account Management             Success and Failure
+  Security Group Management               Success and Failure
+  Distribution Group Management           Success and Failure
+  Application Group Management            Success and Failure
+  Other Account Management Events         Success and Failure
+  User Account Management                 Success and Failure
+DS Access
+  Directory Service Access                No Auditing
+  Directory Service Changes               Success and Failure
+  Directory Service Replication           No Auditing
+  Detailed Directory Service Replication  No Auditing
+Account Logon
+  Kerberos Service Ticket Operations      No Auditing
+  Other Account Logon Events              Success and Failure
+  Kerberos Authentication Service         No Auditing
+  Credential Validation                   Success and Failure
+</pre>
