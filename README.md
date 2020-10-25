@@ -82,3 +82,15 @@ Account Logon
   Kerberos Authentication Service         No Auditing
   Credential Validation                   Success and Failure
 </pre>
+
+PowerShell Advanced Logging Level<br>
+https://www.cyber.gov.au/sites/default/files/2020-06/PROTECT%20-%20Windows%20Event%20Logging%20and%20Forwarding%20%28June%202020%29.docx
+<pre>
+Group Policy Setting
+Computer Configuration\Policies\Administrative Templates\Windows Components\Windows PowerShell
+  Turn on Module Logging
+    Enabled
+    Module Names: *
+  Turn on PowerShell Script Block Logging
+    Enabled
+</pre>
