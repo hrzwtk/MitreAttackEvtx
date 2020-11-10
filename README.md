@@ -112,7 +112,7 @@ Computer Configuration\Policies\Administrative Templates\Windows Components\Wind
 </pre>
 
 ### Sysmonのログ設定
-<pre>
 https://github.com/olafhartong/sysmon-modular
+<pre>
 Sysmon64.exe -i sysmon-modular-master\sysmonconfig.xml
 </pre>
