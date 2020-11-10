@@ -1,7 +1,16 @@
 # Mitre Att&ck の各Techniqueで出力されるイベントログ
 
-主にPurpleSharpを実行して確認。<br>
+主にPurpleSharpを実行して、関係するイベントログをエクスポートしています。順次、追加予定です。<br>
 https://github.com/mvelazc0/PurpleSharp
+
+
+基本的にEventLog配下をご参照ください。<br>
+- T1003_001_OS_Credential_Dumping-LSASS_Memory-CommandLog.txt<br>
+  実行時のログなど<br>
+- T1003_001_OS_Credential_Dumping-LSASS_Memory.evtx<br>
+  イベントログファイル<br>
+
+evtx配下は実行結果の確認が不十分だったので、近いうちに削除します。
 
 ## クライアント環境
 Windows 10 1809 [Version 10.0.17763.1554]<br>
