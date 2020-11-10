@@ -14,15 +14,15 @@ evtx配下は実行結果の確認が不十分だったので、近いうちに�
 
 ## クライアント環境
 Windows 10 1809 [Version 10.0.17763.1554]<br>
-Microsoft Edge Developerから評価用VMをダウンロードして使用<br>
+Microsoft Edge Developerから評価用VMをダウンロードして使用しています。<br>
 https://developer.microsoft.com/ja-jp/microsoft-edge/tools/vms/
 
 ## イベントログ設定
-Windowsのデフォルト設定では、イベントログにはほとんど出力されない。<br>
-下記のサイトを参考に、イベントログ設定をチューニングした。<br>
+Windowsのデフォルト設定では、イベントログにはほとんど出力されません。<br>
+下記のサイトを参考に、イベントログ設定をチューニングしています。<br>
 Malware Archaeology Logging Level<br>
 https://www.malwarearchaeology.com/cheat-sheets
-<pre>
+```
 C:\Windows\system32>auditpol.exe /get /category:*
 System audit policy
 Category/Subcategory                      Setting
@@ -94,10 +94,10 @@ Account Logon
   Other Account Logon Events              Success and Failure
   Kerberos Authentication Service         Success and Failure
   Credential Validation                   Success and Failure
-</pre>
+```
 
 ### EventID:4688でコマンド実行時の引数も出力するように変更
-<pre>
+```
 C:\Windows\system32>reg add "hklm\software\microsoft\windows\currentversion\policies\system\audit" /v ProcessCreationIncludeCmdLine_Enabled /t REG_DWORD /d 1
 The operation completed successfully.
 
@@ -105,12 +105,12 @@ C:\Windows\system32>reg query "hklm\software\microsoft\windows\currentversion\po
 
 HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system\audit
     ProcessCreationIncludeCmdLine_Enabled    REG_DWORD    0x1
-</pre>
+```
 
 ### PowerShellの詳細ログも出力するように変更
 PowerShell Advanced Logging Level<br>
 https://www.cyber.gov.au/sites/default/files/2020-06/PROTECT%20-%20Windows%20Event%20Logging%20and%20Forwarding%20%28June%202020%29.docx
-<pre>
+```
 Group Policy Setting
 Computer Configuration\Policies\Administrative Templates\Windows Components\Windows PowerShell
   Turn on Module Logging
@@ -118,10 +118,10 @@ Computer Configuration\Policies\Administrative Templates\Windows Components\Wind
     Module Names: *
   Turn on PowerShell Script Block Logging
     Enabled
-</pre>
+```
 
 ### Sysmonのログ設定
 https://github.com/olafhartong/sysmon-modular
-<pre>
+```
 Sysmon64.exe -i sysmon-modular-master\sysmonconfig.xml
-</pre>
+```
