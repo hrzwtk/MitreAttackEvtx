@@ -1,0 +1,8 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1218.003
+11/07/2020 17:58:30 [*]  Starting T1218.003 Simulation on MSEDGEWIN10
+11/07/2020 17:58:30 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:3940 as MSEDGEWIN10\IEUser
+11/07/2020 17:58:30 [*]  Executing Command: cmstp /s /ns C:\Windows\Temp\XKNqbpzl.txt
+11/07/2020 17:58:30 [*]  Process successfully created. (PID): 5008
+11/07/2020 17:58:30 [*]  Simulation Finished
+11/07/2020 17:58:30 [*]  Playbook Finished
+

@@ -1,0 +1,23 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1007
+11/09/2020 19:44:35 [*]  Starting T1007 Simulation on MSEDGEWIN10
+11/09/2020 19:44:35 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:6480 as MSEDGEWIN10\IEUser
+11/09/2020 19:44:35 [*]  Executing Command: net start
+11/09/2020 19:44:35 [*]  Process successfully created. (PID): 9520
+11/09/2020 19:44:35 [*]  Executing Command: tasklist /svc
+11/09/2020 19:44:35 [*]  Process successfully created. (PID): 9636
+11/09/2020 19:44:35 [*]  Simulation Finished
+11/09/2020 19:44:35 [*]  Playbook Finished
+次の Windows サービスが開始されています:
+
+
+   Application Informationc:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>
+   AVCTP サービス
+   Background Tasks Infrastructure Service
+[...snip...]
+コマンドは正常に終了しました。
+svchost.exe
+     1096 Schedule
+svchost.exe                   1156 ProfSvc
+svchost.exe                   1204 EventLog
+[...snip...]
+

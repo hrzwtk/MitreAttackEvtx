@@ -1,0 +1,12 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1543.003 /var 2
+11/07/2020 10:55:05 [*]  Starting T1543.003 Simulation on MSEDGEWIN10
+11/07/2020 10:55:05 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:7560 as MSEDGEWIN10\IEUser
+11/07/2020 10:55:05 [*]  Using the command line to execute the technique
+11/07/2020 10:55:05 [*]  Executing Command: sc create UpdaterService binpath= C:\Windows\Temp\superlegit.exe type= own start= auto
+11/07/2020 10:55:05 [*]  Process successfully created. (PID): 5060
+[SC] CreateService SUCCESS
+11/07/2020 10:55:08 [*]  Executing Command: sc delete UpdaterService
+11/07/2020 10:55:08 [*]  Process successfully created. (PID): 844
+11/07/2020 10:55:08 [*]  Playbook Finished
+[SC] DeleteService SUCCESS
+

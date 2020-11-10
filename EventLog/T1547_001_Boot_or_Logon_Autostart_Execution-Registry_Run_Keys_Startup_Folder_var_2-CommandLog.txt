@@ -1,0 +1,13 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1547.001 /var 2
+11/07/2020 10:59:31 [*]  Starting T1547.001 Simulation on MSEDGEWIN10
+11/07/2020 10:59:31 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:4404 as MSEDGEWIN10\IEUser
+11/07/2020 10:59:31 [*]  Using the command line to execute the technique
+11/07/2020 10:59:31 [*]  Executing Command: REG ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /V BadApp /t REG_SZ /F /D C:\Windows\Temp\xyz12345.exe
+11/07/2020 10:59:31 [*]  Process successfully created. (PID): 2268
+この操作を正しく終了しました。
+11/07/2020 10:59:34 [*]  Executing Command: REG DELETE HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /V BadApp /F
+11/07/2020 10:59:34 [*]  Process successfully created. (PID): 1188
+11/07/2020 10:59:34 [*]  Simulation Finished
+11/07/2020 10:59:34 [*]  Playbook Finished
+この操作を正しく終了しました。
+

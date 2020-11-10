@@ -1,0 +1,8 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1218.011
+11/07/2020 18:23:12 [*]  Starting T1218.011 Simulation on MSEDGEWIN10
+11/07/2020 18:23:12 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:9928 as MSEDGEWIN10\IEUser
+11/07/2020 18:23:12 [*]  Executing Command: rundll32 "C:\Windows\twain_64.dll"
+11/07/2020 18:23:12 [*]  Process successfully created. (PID): 7280
+11/07/2020 18:23:12 [*]  Simulation Finished
+11/07/2020 18:23:12 [*]  Playbook Finished
+

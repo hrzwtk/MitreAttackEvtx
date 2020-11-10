@@ -1,0 +1,8 @@
+c:\Tools\PurpleSharp-master>PurpleSharp.exe /t T1059.005
+11/03/2020 15:03:20 [*]  Starting T1059.005 Simulation on MSEDGEWIN10
+11/03/2020 15:03:20 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp.exe with PID:4640 as MSEDGEWIN10\IEUser
+11/03/2020 15:03:20 [*]  Executing Command: wscript.exe invoice0420.vbs
+11/03/2020 15:03:20 [*]  Process successfully created. (PID): 7976
+11/03/2020 15:03:20 [*]  Simulation Finished
+11/03/2020 15:03:20 [*]  Playbook Finished
+

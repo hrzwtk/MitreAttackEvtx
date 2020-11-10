@@ -1,0 +1,14 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1218.004
+11/07/2020 17:23:25 [*]  Starting T1218.004 Simulation on MSEDGEWIN10
+11/07/2020 17:23:25 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:7508 as MSEDGEWIN10\IEUser
+11/07/2020 17:23:25 [*]  Executing Command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfiles /LogToConsole=alse /U C:\Windows\Temp\XKNqbpzl.exe
+11/07/2020 17:23:25 [*]  Process successfully created. (PID): 9280
+11/07/2020 17:23:25 [*]  Simulation Finished
+11/07/2020 17:23:25 [*]  Playbook Finished
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>Microsoft(R) .NET Framework Installation utility Version 4.8.3761.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+インストールを初期化中に例外が発生しました:
+System.BadImageFormatException: ファイルまたはアセンブリ 'file:///C:\Windows\Temp\XKNqbpzl.exe'、またはその依存関係の 1 つが読み込めませんでした。モジュールはアセンブリ マニフェストを含んでいなければなりません。
+

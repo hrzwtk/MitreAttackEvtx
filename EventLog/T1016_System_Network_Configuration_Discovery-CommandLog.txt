@@ -1,0 +1,38 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1016
+11/09/2020 18:52:50 [*]  Starting T1016 Simulation on MSEDGEWIN10
+11/09/2020 18:52:50 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:5164 as MSEDGEWIN10\IEUser
+11/09/2020 18:52:50 [*]  Executing Command: ipconfig /all
+11/09/2020 18:52:50 [*]  Process successfully created. (PID): 8660
+11/09/2020 18:52:50 [*]  Simulation Finished
+11/09/2020 18:52:50 [*]  Playbook Finished
+
+W
+inc:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>dows IP 構成
+
+   ホスト名. . . . . . . . . . . . . . .: MSEDGEWIN10
+   プライマリ DNS サフィックス . . . . .:
+   ノード タイプ . . . . . . . . . . . .: ハイブリッド
+   IP ルーティング有効 . . . . . . . . .: いいえ
+   WINS プロキシ有効 . . . . . . . . . .: いいえ
+   DNS サフィックス検索一覧. . . . . . .: localdomain
+
+イーサネット アダプター Ethernet0:
+
+   接続固有の DNS サフィックス . . . . .: localdomain
+   説明. . . . . . . . . . . . . . . . .: Intel(R) PRO/1000 MT Network Connection
+   物理アドレス. . . . . . . . . . . . .: 00-0C-29-EE-DC-18
+   DHCP 有効 . . . . . . . . . . . . . .: はい
+   自動構成有効. . . . . . . . . . . . .: はい
+   リンクローカル IPv6 アドレス. . . . .: fe80::e4e9:a0ff:c77c:94c6%4(優先)
+   IPv4 アドレス . . . . . . . . . . . .: 192.168.114.209(優先)
+   サブネット マスク . . . . . . . . . .: 255.255.255.0
+   リース取得. . . . . . . . . . . . . .: 2020年11月9日 17:55:48
+   リースの有効期限. . . . . . . . . . .: 2020年11月9日 19:15:43
+   デフォルト ゲートウェイ . . . . . . .: 192.168.114.2
+   DHCP サーバー . . . . . . . . . . . .: 192.168.114.254
+   DHCPv6 IAID . . . . . . . . . . . . .: 67111977
+   DHCPv6 クライアント DUID. . . . . . .: 00-01-00-01-27-32-2E-3B-00-0C-29-EE-DC-18
+   DNS サーバー. . . . . . . . . . . . .: 192.168.114.2
+   プライマリ WINS サーバー. . . . . . .: 192.168.114.2
+   NetBIOS over TCP/IP . . . . . . . . .: 有効
+

@@ -1,0 +1,13 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1053.005
+11/03/2020 15:45:55 [*]  Starting T1053.005 Simulation on MSEDGEWIN10
+11/03/2020 15:45:55 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:3540 as MSEDGEWIN10\IEUser
+11/03/2020 15:45:55 [*]  Using the command line to execute the technique
+11/03/2020 15:45:55 [*]  Executing Command: SCHTASKS /CREATE /SC DAILY /TN BadScheduledTask /TR "C:\Windows\Temp\xyz12345.exe" /ST 13:00
+11/03/2020 15:45:55 [*]  Process successfully created. (PID): 3752
+11/03/2020 15:45:55 [*]  Executing Command: SCHTASKS /DELETE /F /TN BadScheduledTask
+11/03/2020 15:45:55 [*]  Process successfully created. (PID): 1672
+成功: スケジュール タスク "BadScheduledTask" は正しく作成されました。
+成功: スケジュール タスク "BadScheduledTask" は正しく削除されました。
+11/03/2020 15:45:58 [*]  Simulation Finished
+11/03/2020 15:45:58 [*]  Playbook Finished
+

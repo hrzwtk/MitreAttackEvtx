@@ -1,0 +1,12 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1140
+11/10/2020 16:05:10 [*]  Starting T1140 Simulation on MSEDGEWIN10
+11/10/2020 16:05:10 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:9112 as MSEDGEWIN10\IEUser
+11/10/2020 16:05:10 [*]  Executing Command: certutil -decode encodedb64.txt decoded.exe
+11/10/2020 16:05:10 [*]  Process successfully created. (PID): 6660
+11/10/2020 16:05:10 [*]  Simulation Finished
+11/10/2020 16:05:10 [*]  Playbook Finished
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>入力長 = 383034
+出力長 = 278528
+CertUtil: -decode コマンドは正常に完了しました。
+

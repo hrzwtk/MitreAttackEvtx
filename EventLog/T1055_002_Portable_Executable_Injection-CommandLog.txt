@@ -1,0 +1,11 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1055.002
+11/09/2020 18:04:30 [*]  Starting T1055.002 Simulation on MSEDGEWIN10
+11/09/2020 18:04:30 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:4400 as MSEDGEWIN10\IEUser
+11/09/2020 18:04:30 [*]  Process notepad.exe with PID:3928 started for the injection
+11/09/2020 18:04:31 [*]  Calling OpenProcess on PID:3928
+11/09/2020 18:04:31 [*]  Calling VirtualAllocEx on PID:3928
+11/09/2020 18:04:31 [*]  Calling WriteProcessMemory on PID:3928
+11/09/2020 18:04:31 [*]  Calling CreateRemoteThread on PID:3928
+11/09/2020 18:04:31 [*]  Simulation Finished
+11/09/2020 18:04:31 [*]  Playbook Finished
+

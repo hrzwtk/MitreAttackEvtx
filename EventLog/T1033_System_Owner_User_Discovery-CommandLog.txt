@@ -1,0 +1,20 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1033
+11/09/2020 19:46:42 [*]  Starting T1033 Simulation on MSEDGEWIN10
+11/09/2020 19:46:42 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:9584 as MSEDGEWIN10\IEUser
+11/09/2020 19:46:42 [*]  Executing Command: whoami
+11/09/2020 19:46:42 [*]  Process successfully created. (PID): 8244
+11/09/2020 19:46:42 [*]  Executing Command: query user
+11/09/2020 19:46:42 [*]  Process successfully created. (PID): 8340
+11/09/2020 19:46:42 [*]  Simulation Finished
+11/09/2020 19:46:42 [*]  Playbook Finished
+msedgewin10\ieuser
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>                                                      アイドル
+ ユーザー名            セッション名       ID  状態    時間       ログオン時刻
+>ieuser                console             1  Active      none   2020/11/09 17:55
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>                                                      アイドル
+ ユーザー名            セッション名       ID  状態    時間       ログオン時刻
+>ieuser                console             1  Active      none   2020/11/09 17:55
+
+

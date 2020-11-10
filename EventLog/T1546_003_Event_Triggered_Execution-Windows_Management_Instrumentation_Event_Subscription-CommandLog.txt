@@ -1,0 +1,11 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1546.003
+11/10/2020 15:11:41 [*]  Starting T1546.003 Simulation on MSEDGEWIN10
+11/10/2020 15:11:41 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:7616 as MSEDGEWIN10\IEUser
+11/10/2020 15:11:41 [*]  Using the System.Management .NEt namespace to execute the technique
+11/10/2020 15:11:41 [*]  EventFilter 'MaliciousWmiSubscription' created.
+11/10/2020 15:11:41 [*]  CommandLineEventConnsumer 'MaliciousWmiSubscription' created.
+11/10/2020 15:11:41 [*]  FilterToConsumerBinding created.
+11/10/2020 15:11:44 [*]  WMI Subscription Deleted
+11/10/2020 15:11:44 [*]  Simulation Finished
+11/10/2020 15:11:44 [*]  Playbook Finished
+

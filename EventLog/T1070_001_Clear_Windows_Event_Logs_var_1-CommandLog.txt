@@ -1,0 +1,8 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1070.001
+11/07/2020 18:26:41 [*]  Starting T1070.001 Simulation on MSEDGEWIN10
+11/07/2020 18:26:41 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:7444 as MSEDGEWIN10\IEUser
+11/07/2020 18:26:41 [*]  Using the System.Diagnostics .NET namespace to execute the technique
+11/07/2020 18:26:41 [*]  Cleared the Security EventLog using .NETs EventLog
+11/07/2020 18:26:41 [*]  Simulation Finished
+11/07/2020 18:26:41 [*]  Playbook Finished
+

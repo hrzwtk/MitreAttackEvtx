@@ -1,0 +1,28 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1049
+11/09/2020 19:48:15 [*]  Starting T1049 Simulation on MSEDGEWIN10
+11/09/2020 19:48:15 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:476 as MSEDGEWIN10\IEUser
+11/09/2020 19:48:15 [*]  Executing Command: netstat
+11/09/2020 19:48:15 [*]  Process successfully created. (PID): 10136
+11/09/2020 19:48:15 [*]  Executing Command: net use
+11/09/2020 19:48:15 [*]  Process successfully created. (PID): 5336
+11/09/2020 19:48:15 [*]  Executing Command: net session
+11/09/2020 19:48:15 [*]  Process successfully created. (PID): 9928
+11/09/2020 19:48:15 [*]  Simulation Finished
+11/09/2020 19:48:15 [*]  Playbook Finished
+一覧にエントリが存在しません。
+
+
+新しい接続は記憶されます。
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>
+
+アク一覧にエントリが存在しません。
+ティ
+ブな接続
+
+  プロトコル  ローカル アドレス      外部アドレス           状態
+  TCP         127.0.0.1:49960        MSEDGEWIN10:49961      ESTABLISHED
+  TCP         127.0.0.1:49961        MSEDGEWIN10:49960      ESTABLISHED
+[...snip...]
+  TCP         [fe80::e4e9:a0ff:c77c:94c6%4]:49665  MSEDGEWIN10:49718      ESTABLISHED
+  TCP         [fe80::e4e9:a0ff:c77c:94c6%4]:49718  MSEDGEWIN10:49665      ESTABLISHED
+

@@ -1,0 +1,15 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1087.002 /var 2
+11/09/2020 19:41:15 [*]  Starting T1087.002 Simulation on MSEDGEWIN10
+11/09/2020 19:41:15 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:10056 as MSEDGEWIN10\IEUser
+11/09/2020 19:41:15 [*]  Using the command line to execute the technique
+11/09/2020 19:41:15 [*]  Executing Command: net user /domain
+11/09/2020 19:41:15 [*]  Process successfully created. (PID): 3084
+11/09/2020 19:41:15 [*]  Simulation Finished
+11/09/2020 19:41:15 [*]  Playbook Finished
+
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>この要求はドメイン WORKGROUP のドメイン コントローラーで処理されます。
+
+システム エラー 1355 が発生しました。
+
+指定されたドメインがないか、またはアクセスできません。
+

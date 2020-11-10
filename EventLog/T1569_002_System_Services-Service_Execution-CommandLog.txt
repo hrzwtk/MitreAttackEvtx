@@ -1,0 +1,21 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1569.002
+11/03/2020 15:30:41 [*]  Starting T1035 Simulation on MSEDGEWIN10
+11/03/2020 15:30:41 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:3752 as MSEDGEWIN10\IEUser
+11/03/2020 15:30:41 [*]  Executing Command: net start TermService
+11/03/2020 15:30:41 [*]  Process successfully created. (PID): 5404
+11/03/2020 15:30:41 [*]  Executing Command: sc start TermService
+11/03/2020 15:30:41 [*]  Process successfully created. (PID): 4412
+11/03/2020 15:30:41 [*]  Simulation Finished
+11/03/2020 15:30:41 [*]  Playbook Finished
+
+SERVICE_NAME: TermService
+        TYPE               : 30  WIN32
+        STATE              : 2  START_PENDING
+                                (NOT_STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x7d0
+        PID                : 3376
+        FLAGS              :
+
