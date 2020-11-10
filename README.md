@@ -3,10 +3,14 @@
 主にPurpleSharpを実行して確認。<br>
 https://github.com/mvelazc0/PurpleSharp
 
-## 環境
-Windows 10 1809<br>
+## クライアント環境
+Windows 10 1809 [Version 10.0.17763.1554]<br>
+Microsoft Edge Developerから評価用VMをダウンロードして使用<br>
 https://developer.microsoft.com/ja-jp/microsoft-edge/tools/vms/
 
+## イベントログ設定
+Windowsのデフォルト設定では、イベントログにはほとんど出力されない。<br>
+下記のサイトを参考に、イベントログ設定をチューニングした。<br>
 Malware Archaeology Logging Level<br>
 https://www.malwarearchaeology.com/cheat-sheets
 <pre>
@@ -42,7 +46,7 @@ Object Access
   File Share                              Success and Failure
   Filtering Platform Packet Drop          No Auditing
   Filtering Platform Connection           Success
-  Other Object Access Events              No Auditing
+  Other Object Access Events              Success and Failure
   Detailed File Share                     Success
   Removable Storage                       Success and Failure
   Central Policy Staging                  No Auditing
@@ -56,7 +60,7 @@ Detailed Tracking
   DPAPI Activity                          No Auditing
   RPC Events                              Success and Failure
   Plug and Play Events                    Success
-  Token Right Adjusted Events             Success
+  Token Right Adjusted Events             Success and Failure
 Policy Change
   Audit Policy Change                     Success and Failure
   Authentication Policy Change            Success and Failure
@@ -77,12 +81,24 @@ DS Access
   Directory Service Replication           No Auditing
   Detailed Directory Service Replication  No Auditing
 Account Logon
-  Kerberos Service Ticket Operations      No Auditing
+  Kerberos Service Ticket Operations      Success and Failure
   Other Account Logon Events              Success and Failure
-  Kerberos Authentication Service         No Auditing
+  Kerberos Authentication Service         Success and Failure
   Credential Validation                   Success and Failure
 </pre>
 
+### EventID:4688でコマンド実行時の引数も出力するように変更
+<pre>
+C:\Windows\system32>reg add "hklm\software\microsoft\windows\currentversion\policies\system\audit" /v ProcessCreationIncludeCmdLine_Enabled /t REG_DWORD /d 1
+The operation completed successfully.
+
+C:\Windows\system32>reg query "hklm\software\microsoft\windows\currentversion\policies\system\audit"
+
+HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system\audit
+    ProcessCreationIncludeCmdLine_Enabled    REG_DWORD    0x1
+</pre>
+
+### PowerShellの詳細ログも出力するように変更
 PowerShell Advanced Logging Level<br>
 https://www.cyber.gov.au/sites/default/files/2020-06/PROTECT%20-%20Windows%20Event%20Logging%20and%20Forwarding%20%28June%202020%29.docx
 <pre>
@@ -93,4 +109,10 @@ Computer Configuration\Policies\Administrative Templates\Windows Components\Wind
     Module Names: *
   Turn on PowerShell Script Block Logging
     Enabled
+</pre>
+
+### Sysmonのログ設定
+<pre>
+https://github.com/olafhartong/sysmon-modular
+Sysmon64.exe -i sysmon-modular-master\sysmonconfig.xml
 </pre>
