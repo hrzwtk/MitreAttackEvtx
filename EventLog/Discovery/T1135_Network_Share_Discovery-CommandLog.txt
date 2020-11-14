@@ -1,0 +1,11 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1135
+11/14/2020 11:22:05 [*]  Starting T1135 Simulation on MSEDGEWIN10
+11/14/2020 11:22:05 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:1988 as HRZWTK\domainuser
+11/14/2020 11:22:05 [*]  Using the Win32 API NetShareEnum function to execute this technique
+[*] Obtaining domain neighbor targets ...
+[*] Using win-471voni4uok.hrzwtk.local for LDAP queries
+11/14/2020 11:22:06 [*]  Obtained 1 target computers
+11/14/2020 11:22:06 [*]  Successfully enumerated shares on WIN-471VONI4UOK.hrzwtk.local as HRZWTK\domainuser
+11/14/2020 11:22:06 [*]  Simulation Finished
+11/14/2020 11:22:06 [*]  Playbook Finished
+
