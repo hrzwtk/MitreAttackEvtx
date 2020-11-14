@@ -1,0 +1,12 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1021.006
+11/14/2020 15:45:15 [*]  Starting T1021.006 Simulation on MSEDGEWIN10
+11/14/2020 15:45:15 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:96 as HRZWTK\domainuser
+11/14/2020 15:45:15 [*]  Using the System.Management.Automation .NET namespace to execute this technique
+11/14/2020 15:45:15 [*]  Querying LDAP for random targets...
+[*] Obtaining domain neighbor targets ...
+[*] Using WIN-471VONI4UOK.hrzwtk.local for LDAP queries
+11/14/2020 15:45:16 [*]  Obtained 1 target computers
+11/14/2020 15:45:16 [*]  Failed to start a process using WinRM on WIN-471VONI4UOK.hrzwtk.local. (Port Closed)
+11/14/2020 15:45:16 [*]  Simulation Finished
+11/14/2020 15:45:16 [*]  Playbook Finished
+

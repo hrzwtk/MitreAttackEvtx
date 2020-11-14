@@ -1,0 +1,9 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1087.002
+11/14/2020 15:38:06 [*]  Starting T1087.002 Simulation on MSEDGEWIN10
+11/14/2020 15:38:06 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:8112 as HRZWTK\domainuser
+11/14/2020 15:38:06 [*]  Using LDAP to execute this technique
+System.DirectoryServices.DirectorySearcher
+11/14/2020 15:38:06 [*]  Obtained results via LDAP
+11/14/2020 15:38:06 [*]  Simulation Finished
+11/14/2020 15:38:06 [*]  Playbook Finished
+

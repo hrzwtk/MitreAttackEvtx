@@ -1,0 +1,12 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1046
+11/14/2020 15:30:30 [*]  Starting T1046 Simulation on MSEDGEWIN10
+11/14/2020 15:30:30 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:5904 as HRZWTK\domainuser
+11/14/2020 15:30:30 [*]  Using the System.Net.Sockets .NET namespace to execute this technique
+[*] Obtaining domain neighbor targets ...
+[*] Using WIN-471VONI4UOK.hrzwtk.local for LDAP queries
+11/14/2020 15:30:31 [*]  Obtained 1 target computers for the scan
+11/14/2020 15:30:31 [*]  Starting port scan against WIN-471VONI4UOK (192.168.114.210)
+    [11/14/2020 15:30:51] Finished network service scan on WIN-471VONI4UOK.hrzwtk.local
+11/14/2020 15:30:51 [*]  Simulation Finished
+11/14/2020 15:30:51 [*]  Playbook Finished
+
