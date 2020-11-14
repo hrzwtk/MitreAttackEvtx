@@ -10,7 +10,6 @@ https://github.com/mvelazc0/PurpleSharp
 - T1003_001_OS_Credential_Dumping-LSASS_Memory.evtx<br>
   イベントログファイル<br>
 
-evtx配下は実行結果の確認が不十分だったので、近いうちに削除します。
 
 ## クライアント環境
 Windows 10 1809 [Version 10.0.17763.1554]<br>
