@@ -1,0 +1,1 @@
+../Persistence/T1543_003_Create_or_Modify_System_Process-Windows_Service_var_2-CommandLog.txt

@@ -1,0 +1,1 @@
+../Persistence/T1547_001_Boot_or_Logon_Autostart_Execution-Registry_Run_Keys_Startup_Folder_var_1-CommandLog.txt
